@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ThirdEye</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      font-family: 'Poppins';
+      color: white;
+      overflow-x: hidden;
+      /* background: url('back.jpg');     */
+      background-color: rgb(34, 36, 36);
+    }
+    body {
+      text-align: center;
+      width: 100%;
+    }
+    p{
+      padding-top: 100px;
+      word-break: break-all
+    }
+    form{
+      padding: 50px;
+      /* width: 400px; */
+      display: flex;
+      flex-direction: column;;
+    }
+    .submit{
+      background-color: red;
+      height: 40px;
+      font-size: 20px;
+      /* color: red; */
+    }
+    form input{
+      height: 40px;
+    }
+    label{
+      padding-bottom: 10px;
+    }
+  </style>
+  <body>
+    <h1>ThirdEyee</h1>
+    <p>
+      Report the nearby cops if any local gathering is happening around during
+      the Lock-Down and be there third eye.So, some strict actions can be taken
+      on them those are not following Government orders.
+    </p>
+    <form action="/" method="post">
+      <label for="address">Adress of the gathering</label>
+      <input type="text" class="address" name="address" required placeholder="Put the address here" />
+      <input class="submit" type="submit" value="submit" />
+    </form>
+  </body>
+</html>
